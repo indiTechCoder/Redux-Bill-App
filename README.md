@@ -1,5 +1,5 @@
 
-# Redux App with Node express Mongo DB
+# Redux App with Node express Mongo DB + [Athena’s]
 
 # Three Principles
 
