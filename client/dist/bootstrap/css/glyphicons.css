@@ -1,0 +1,2066 @@
+/* GLYPHICONS 1.8 */
+@font-face {
+	font-family: "Glyphicons";
+	src:  url("../fonts/glyphicons-regular.ttf?#iefix")
+		format("truetype"),
+		url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+		url('../fonts/glyphicons-halflings-regular.svg#glyphiconregular');
+		
+/* 	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+		url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+		url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+		url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+		format('svg'); */
+}
+
+[class*="myglyphicon-"] {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: "Glyphicons";
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.myglyphicon-spin {
+	-moz-animation: myglyphicon-spin 2s infinite linear;
+	-o-animation: myglyphicon-spin 2s infinite linear;
+	-webkit-animation: myglyphicon-spin 2s infinite linear;
+	animation: myglyphicon-spin 2s infinite linear;
+}
+
+@
+-moz-keyframes myglyphicon-spin { 0% {
+	-moz-transform: rotate(0deg);
+}
+
+100%
+{
+-moz-transform
+
+
+
+
+:
+
+
+ 
+
+
+rotate
+
+
+
+
+(359
+deg
+
+
+);
+}
+}
+@
+-webkit-keyframes myglyphicon-spin { 0% {
+	-webkit-transform: rotate(0deg);
+}
+
+100%
+{
+-webkit-transform
+
+
+
+
+:
+
+
+ 
+
+
+rotate
+
+
+
+
+(359
+deg
+
+
+);
+}
+}
+@
+-o-keyframes myglyphicon-spin { 0% {
+	-o-transform: rotate(0deg);
+}
+
+100%
+{
+-o-transform
+
+
+
+
+:
+
+
+ 
+
+
+rotate
+
+
+
+
+(359
+deg
+
+
+);
+}
+}
+@
+-ms-keyframes myglyphicon-spin { 0% {
+	-ms-transform: rotate(0deg);
+}
+
+100%
+{
+-ms-transform
+
+
+
+
+:
+
+
+ 
+
+
+rotate
+
+
+
+
+(359
+deg
+
+
+);
+}
+}
+@
+keyframes myglyphicon-spin { 0% {
+	transform: rotate(0deg);
+}
+
+100%
+{
+transform
+
+
+
+
+:
+
+
+ 
+
+
+rotate
+
+
+
+
+(359
+deg
+
+
+);
+}
+}
+.myglyphicon-glass:before {
+	content: "\E001";
+}
+
+.myglyphicon-leaf:before {
+	content: "\E002";
+}
+
+.myglyphicon-dog:before {
+	content: "\1F415";
+}
+
+.myglyphicon-user:before {
+	content: "\E004";
+}
+
+.myglyphicon-girl:before {
+	content: "\1F467";
+}
+
+.myglyphicon-car:before {
+	content: "\E006";
+}
+
+.myglyphicon-user_add:before {
+	content: "\E007";
+}
+
+.myglyphicon-user_remove:before {
+	content: "\E008";
+}
+
+.myglyphicon-film:before {
+	content: "\E009";
+}
+
+.myglyphicon-magic:before {
+	content: "\E010";
+}
+
+.myglyphicon-envelope:before {
+	content: "\2709";
+}
+
+.myglyphicon-camera:before {
+	content: "\1F4F7";
+}
+
+.myglyphicon-heart:before {
+	content: "\E013";
+}
+
+.myglyphicon-beach_umbrella:before {
+	content: "\E014";
+}
+
+.myglyphicon-train:before {
+	content: "\1F686";
+}
+
+.myglyphicon-print:before {
+	content: "\E016";
+}
+
+.myglyphicon-bin:before {
+	content: "\E017";
+}
+
+.myglyphicon-music:before {
+	content: "\E018";
+}
+
+.myglyphicon-note:before {
+	content: "\E019";
+}
+
+.myglyphicon-heart_empty:before {
+	content: "\E020";
+}
+
+.myglyphicon-home:before {
+	content: "\E021";
+}
+
+.myglyphicon-snowflake:before {
+	content: "\2744";
+}
+
+.myglyphicon-fire:before {
+	content: "\1F525";
+}
+
+.myglyphicon-magnet:before {
+	content: "\E024";
+}
+
+.myglyphicon-parents:before {
+	content: "\E025";
+}
+
+.myglyphicon-binoculars:before {
+	content: "\E026";
+}
+
+.myglyphicon-road:before {
+	content: "\E027";
+}
+
+.myglyphicon-search:before {
+	content: "\E028";
+}
+
+.myglyphicon-cars:before {
+	content: "\E029";
+}
+
+.myglyphicon-notes_2:before {
+	content: "\E030";
+}
+
+.myglyphicon-pencil:before {
+	content: "\270F";
+}
+
+.myglyphicon-bus:before {
+	content: "\1F68C";
+}
+
+.myglyphicon-wifi_alt:before {
+	content: "\E033";
+}
+
+.myglyphicon-luggage:before {
+	content: "\E034";
+}
+
+.myglyphicon-old_man:before {
+	content: "\E035";
+}
+
+.myglyphicon-woman:before {
+	content: "\1F469";
+}
+
+.myglyphicon-file:before {
+	content: "\E037";
+}
+
+.myglyphicon-coins:before {
+	content: "\E038";
+}
+
+.myglyphicon-airplane:before {
+	content: "\2708";
+}
+
+.myglyphicon-notes:before {
+	content: "\E040";
+}
+
+.myglyphicon-stats:before {
+	content: "\E041";
+}
+
+.myglyphicon-charts:before {
+	content: "\E042";
+}
+
+.myglyphicon-pie_chart:before {
+	content: "\E043";
+}
+
+.myglyphicon-group:before {
+	content: "\E044";
+}
+
+.myglyphicon-keys:before {
+	content: "\E045";
+}
+
+.myglyphicon-calendar:before {
+	content: "\1F4C5";
+}
+
+.myglyphicon-router:before {
+	content: "\E047";
+}
+
+.myglyphicon-camera_small:before {
+	content: "\E048";
+}
+
+.myglyphicon-dislikes:before {
+	content: "\E049";
+}
+
+.myglyphicon-star:before {
+	content: "\E050";
+}
+
+.myglyphicon-link:before {
+	content: "\E051";
+}
+
+.myglyphicon-eye_open:before {
+	content: "\E052";
+}
+
+.myglyphicon-eye_close:before {
+	content: "\E053";
+}
+
+.myglyphicon-alarm:before {
+	content: "\E054";
+}
+
+.myglyphicon-clock:before {
+	content: "\E055";
+}
+
+.myglyphicon-stopwatch:before {
+	content: "\E056";
+}
+
+.myglyphicon-projector:before {
+	content: "\E057";
+}
+
+.myglyphicon-history:before {
+	content: "\E058";
+}
+
+.myglyphicon-truck:before {
+	content: "\E059";
+}
+
+.myglyphicon-cargo:before {
+	content: "\E060";
+}
+
+.myglyphicon-compass:before {
+	content: "\E061";
+}
+
+.myglyphicon-keynote:before {
+	content: "\E062";
+}
+
+.myglyphicon-paperclip:before {
+	content: "\1F4CE";
+}
+
+.myglyphicon-power:before {
+	content: "\E064";
+}
+
+.myglyphicon-lightbulb:before {
+	content: "\E065";
+}
+
+.myglyphicon-tag:before {
+	content: "\E066";
+}
+
+.myglyphicon-tags:before {
+	content: "\E067";
+}
+
+.myglyphicon-cleaning:before {
+	content: "\E068";
+}
+
+.myglyphicon-ruller:before {
+	content: "\E069";
+}
+
+.myglyphicon-gift:before {
+	content: "\E070";
+}
+
+.myglyphicon-umbrella:before {
+	content: "\2602";
+}
+
+.myglyphicon-book:before {
+	content: "\E072";
+}
+
+.myglyphicon-bookmark:before {
+	content: "\1F516";
+}
+
+.myglyphicon-wifi:before {
+	content: "\E074";
+}
+
+.myglyphicon-cup:before {
+	content: "\E075";
+}
+
+.myglyphicon-stroller:before {
+	content: "\E076";
+}
+
+.myglyphicon-headphones:before {
+	content: "\E077";
+}
+
+.myglyphicon-headset:before {
+	content: "\E078";
+}
+
+.myglyphicon-warning_sign:before {
+	content: "\E079";
+}
+
+.myglyphicon-signal:before {
+	content: "\E080";
+}
+
+.myglyphicon-retweet:before {
+	content: "\E081";
+}
+
+.myglyphicon-refresh:before {
+	content: "\E082";
+}
+
+.myglyphicon-roundabout:before {
+	content: "\E083";
+}
+
+.myglyphicon-random:before {
+	content: "\E084";
+}
+
+.myglyphicon-heat:before {
+	content: "\E085";
+}
+
+.myglyphicon-repeat:before {
+	content: "\E086";
+}
+
+.myglyphicon-display:before {
+	content: "\E087";
+}
+
+.myglyphicon-log_book:before {
+	content: "\E088";
+}
+
+.myglyphicon-address_book:before {
+	content: "\E089";
+}
+
+.myglyphicon-building:before {
+	content: "\E090";
+}
+
+.myglyphicon-eyedropper:before {
+	content: "\E091";
+}
+
+.myglyphicon-adjust:before {
+	content: "\E092";
+}
+
+.myglyphicon-tint:before {
+	content: "\E093";
+}
+
+.myglyphicon-crop:before {
+	content: "\E094";
+}
+
+.myglyphicon-vector_path_square:before {
+	content: "\E095";
+}
+
+.myglyphicon-vector_path_circle:before {
+	content: "\E096";
+}
+
+.myglyphicon-vector_path_polygon:before {
+	content: "\E097";
+}
+
+.myglyphicon-vector_path_line:before {
+	content: "\E098";
+}
+
+.myglyphicon-vector_path_curve:before {
+	content: "\E099";
+}
+
+.myglyphicon-vector_path_all:before {
+	content: "\E100";
+}
+
+.myglyphicon-font:before {
+	content: "\E101";
+}
+
+.myglyphicon-italic:before {
+	content: "\E102";
+}
+
+.myglyphicon-bold:before {
+	content: "\E103";
+}
+
+.myglyphicon-text_underline:before {
+	content: "\E104";
+}
+
+.myglyphicon-text_strike:before {
+	content: "\E105";
+}
+
+.myglyphicon-text_height:before {
+	content: "\E106";
+}
+
+.myglyphicon-text_width:before {
+	content: "\E107";
+}
+
+.myglyphicon-text_resize:before {
+	content: "\E108";
+}
+
+.myglyphicon-left_indent:before {
+	content: "\E109";
+}
+
+.myglyphicon-right_indent:before {
+	content: "\E110";
+}
+
+.myglyphicon-align_left:before {
+	content: "\E111";
+}
+
+.myglyphicon-align_center:before {
+	content: "\E112";
+}
+
+.myglyphicon-align_right:before {
+	content: "\E113";
+}
+
+.myglyphicon-justify:before {
+	content: "\E114";
+}
+
+.myglyphicon-list:before {
+	content: "\E115";
+}
+
+.myglyphicon-text_smaller:before {
+	content: "\E116";
+}
+
+.myglyphicon-text_bigger:before {
+	content: "\E117";
+}
+
+.myglyphicon-embed:before {
+	content: "\E118";
+}
+
+.myglyphicon-embed_close:before {
+	content: "\E119";
+}
+
+.myglyphicon-table:before {
+	content: "\E120";
+}
+
+.myglyphicon-message_full:before {
+	content: "\E121";
+}
+
+.myglyphicon-message_empty:before {
+	content: "\E122";
+}
+
+.myglyphicon-message_in:before {
+	content: "\E123";
+}
+
+.myglyphicon-message_out:before {
+	content: "\E124";
+}
+
+.myglyphicon-message_plus:before {
+	content: "\E125";
+}
+
+.myglyphicon-message_minus:before {
+	content: "\E126";
+}
+
+.myglyphicon-message_ban:before {
+	content: "\E127";
+}
+
+.myglyphicon-message_flag:before {
+	content: "\E128";
+}
+
+.myglyphicon-message_lock:before {
+	content: "\E129";
+}
+
+.myglyphicon-message_new:before {
+	content: "\E130";
+}
+
+.myglyphicon-inbox:before {
+	content: "\E131";
+}
+
+.myglyphicon-inbox_plus:before {
+	content: "\E132";
+}
+
+.myglyphicon-inbox_minus:before {
+	content: "\E133";
+}
+
+.myglyphicon-inbox_lock:before {
+	content: "\E134";
+}
+
+.myglyphicon-inbox_in:before {
+	content: "\E135";
+}
+
+.myglyphicon-inbox_out:before {
+	content: "\E136";
+}
+
+.myglyphicon-cogwheel:before {
+	content: "\E137";
+}
+
+.myglyphicon-cogwheels:before {
+	content: "\E138";
+}
+
+.myglyphicon-picture:before {
+	content: "\E139";
+}
+
+.myglyphicon-adjust_alt:before {
+	content: "\E140";
+}
+
+.myglyphicon-database_lock:before {
+	content: "\E141";
+}
+
+.myglyphicon-database_plus:before {
+	content: "\E142";
+}
+
+.myglyphicon-database_minus:before {
+	content: "\E143";
+}
+
+.myglyphicon-database_ban:before {
+	content: "\E144";
+}
+
+.myglyphicon-folder_open:before {
+	content: "\E145";
+}
+
+.myglyphicon-folder_plus:before {
+	content: "\E146";
+}
+
+.myglyphicon-folder_minus:before {
+	content: "\E147";
+}
+
+.myglyphicon-folder_lock:before {
+	content: "\E148";
+}
+
+.myglyphicon-folder_flag:before {
+	content: "\E149";
+}
+
+.myglyphicon-folder_new:before {
+	content: "\E150";
+}
+
+.myglyphicon-edit:before {
+	content: "\E151";
+}
+
+.myglyphicon-new_window:before {
+	content: "\E152";
+}
+
+.myglyphicon-check:before {
+	content: "\E153";
+}
+
+.myglyphicon-unchecked:before {
+	content: "\E154";
+}
+
+.myglyphicon-more_windows:before {
+	content: "\E155";
+}
+
+.myglyphicon-show_big_thumbnails:before {
+	content: "\E156";
+}
+
+.myglyphicon-show_thumbnails:before {
+	content: "\E157";
+}
+
+.myglyphicon-show_thumbnails_with_lines:before {
+	content: "\E158";
+}
+
+.myglyphicon-show_lines:before {
+	content: "\E159";
+}
+
+.myglyphicon-playlist:before {
+	content: "\E160";
+}
+
+.myglyphicon-imac:before {
+	content: "\E161";
+}
+
+.myglyphicon-macbook:before {
+	content: "\E162";
+}
+
+.myglyphicon-ipad:before {
+	content: "\E163";
+}
+
+.myglyphicon-iphone:before {
+	content: "\E164";
+}
+
+.myglyphicon-iphone_transfer:before {
+	content: "\E165";
+}
+
+.myglyphicon-iphone_exchange:before {
+	content: "\E166";
+}
+
+.myglyphicon-ipod:before {
+	content: "\E167";
+}
+
+.myglyphicon-ipod_shuffle:before {
+	content: "\E168";
+}
+
+.myglyphicon-ear_plugs:before {
+	content: "\E169";
+}
+
+.myglyphicon-record:before {
+	content: "\E170";
+}
+
+.myglyphicon-step_backward:before {
+	content: "\E171";
+}
+
+.myglyphicon-fast_backward:before {
+	content: "\E172";
+}
+
+.myglyphicon-rewind:before {
+	content: "\E173";
+}
+
+.myglyphicon-play:before {
+	content: "\E174";
+}
+
+.myglyphicon-pause:before {
+	content: "\E175";
+}
+
+.myglyphicon-stop:before {
+	content: "\E176";
+}
+
+.myglyphicon-forward:before {
+	content: "\E177";
+}
+
+.myglyphicon-fast_forward:before {
+	content: "\E178";
+}
+
+.myglyphicon-step_forward:before {
+	content: "\E179";
+}
+
+.myglyphicon-eject:before {
+	content: "\E180";
+}
+
+.myglyphicon-facetime_video:before {
+	content: "\E181";
+}
+
+.myglyphicon-download_alt:before {
+	content: "\E182";
+}
+
+.myglyphicon-mute:before {
+	content: "\E183";
+}
+
+.myglyphicon-volume_down:before {
+	content: "\E184";
+}
+
+.myglyphicon-volume_up:before {
+	content: "\E185";
+}
+
+.myglyphicon-screenshot:before {
+	content: "\E186";
+}
+
+.myglyphicon-move:before {
+	content: "\E187";
+}
+
+.myglyphicon-more:before {
+	content: "\E188";
+}
+
+.myglyphicon-brightness_reduce:before {
+	content: "\E189";
+}
+
+.myglyphicon-brightness_increase:before {
+	content: "\E190";
+}
+
+.myglyphicon-circle_plus:before {
+	content: "\E191";
+}
+
+.myglyphicon-circle_minus:before {
+	content: "\E192";
+}
+
+.myglyphicon-circle_remove:before {
+	content: "\E193";
+}
+
+.myglyphicon-circle_ok:before {
+	content: "\E194";
+}
+
+.myglyphicon-circle_question_mark:before {
+	content: "\E195";
+}
+
+.myglyphicon-circle_info:before {
+	content: "\E196";
+}
+
+.myglyphicon-circle_exclamation_mark:before {
+	content: "\E197";
+}
+
+.myglyphicon-remove:before {
+	content: "\E198";
+}
+
+.myglyphicon-ok:before {
+	content: "\E199";
+}
+
+.myglyphicon-ban:before {
+	content: "\E200";
+}
+
+.myglyphicon-download:before {
+	content: "\E201";
+}
+
+.myglyphicon-upload:before {
+	content: "\E202";
+}
+
+.myglyphicon-shopping_cart:before {
+	content: "\E203";
+}
+
+.myglyphicon-lock:before {
+	content: "\1F512";
+}
+
+.myglyphicon-unlock:before {
+	content: "\E205";
+}
+
+.myglyphicon-electricity:before {
+	content: "\E206";
+}
+
+.myglyphicon-ok_2:before {
+	content: "\E207";
+}
+
+.myglyphicon-remove_2:before {
+	content: "\E208";
+}
+
+.myglyphicon-cart_out:before {
+	content: "\E209";
+}
+
+.myglyphicon-cart_in:before {
+	content: "\E210";
+}
+
+.myglyphicon-left_arrow:before {
+	content: "\E211";
+}
+
+.myglyphicon-right_arrow:before {
+	content: "\E212";
+}
+
+.myglyphicon-down_arrow:before {
+	content: "\E213";
+}
+
+.myglyphicon-up_arrow:before {
+	content: "\E214";
+}
+
+.myglyphicon-resize_small:before {
+	content: "\E215";
+}
+
+.myglyphicon-resize_full:before {
+	content: "\E216";
+}
+
+.myglyphicon-circle_arrow_left:before {
+	content: "\E217";
+}
+
+.myglyphicon-circle_arrow_right:before {
+	content: "\E218";
+}
+
+.myglyphicon-circle_arrow_top:before {
+	content: "\E219";
+}
+
+.myglyphicon-circle_arrow_down:before {
+	content: "\E220";
+}
+
+.myglyphicon-play_button:before {
+	content: "\E221";
+}
+
+.myglyphicon-unshare:before {
+	content: "\E222";
+}
+
+.myglyphicon-share:before {
+	content: "\E223";
+}
+
+.myglyphicon-chevron-right:before {
+	content: "\E224";
+}
+
+.myglyphicon-chevron-left:before {
+	content: "\E225";
+}
+
+.myglyphicon-bluetooth:before {
+	content: "\E226";
+}
+
+.myglyphicon-euro:before {
+	content: "\20AC";
+}
+
+.myglyphicon-usd:before {
+	content: "\E228";
+}
+
+.myglyphicon-gbp:before {
+	content: "\E229";
+}
+
+.myglyphicon-retweet_2:before {
+	content: "\E230";
+}
+
+.myglyphicon-moon:before {
+	content: "\E231";
+}
+
+.myglyphicon-sun:before {
+	content: "\2609";
+}
+
+.myglyphicon-cloud:before {
+	content: "\2601";
+}
+
+.myglyphicon-direction:before {
+	content: "\E234";
+}
+
+.myglyphicon-brush:before {
+	content: "\E235";
+}
+
+.myglyphicon-pen:before {
+	content: "\E236";
+}
+
+.myglyphicon-zoom_in:before {
+	content: "\E237";
+}
+
+.myglyphicon-zoom_out:before {
+	content: "\E238";
+}
+
+.myglyphicon-pin:before {
+	content: "\E239";
+}
+
+.myglyphicon-albums:before {
+	content: "\E240";
+}
+
+.myglyphicon-rotation_lock:before {
+	content: "\E241";
+}
+
+.myglyphicon-flash:before {
+	content: "\E242";
+}
+
+.myglyphicon-google_maps:before {
+	content: "\E243";
+}
+
+.myglyphicon-anchor:before {
+	content: "\2693";
+}
+
+.myglyphicon-conversation:before {
+	content: "\E245";
+}
+
+.myglyphicon-chat:before {
+	content: "\E246";
+}
+
+.myglyphicon-male:before {
+	content: "\E247";
+}
+
+.myglyphicon-female:before {
+	content: "\E248";
+}
+
+.myglyphicon-asterisk:before {
+	content: "\002A";
+}
+
+.myglyphicon-divide:before {
+	content: "\00F7";
+}
+
+.myglyphicon-snorkel_diving:before {
+	content: "\E251";
+}
+
+.myglyphicon-scuba_diving:before {
+	content: "\E252";
+}
+
+.myglyphicon-oxygen_bottle:before {
+	content: "\E253";
+}
+
+.myglyphicon-fins:before {
+	content: "\E254";
+}
+
+.myglyphicon-fishes:before {
+	content: "\E255";
+}
+
+.myglyphicon-boat:before {
+	content: "\E256";
+}
+
+.myglyphicon-delete:before {
+	content: "\E257";
+}
+
+.myglyphicon-sheriffs_star:before {
+	content: "\E258";
+}
+
+.myglyphicon-qrcode:before {
+	content: "\E259";
+}
+
+.myglyphicon-barcode:before {
+	content: "\E260";
+}
+
+.myglyphicon-pool:before {
+	content: "\E261";
+}
+
+.myglyphicon-buoy:before {
+	content: "\E262";
+}
+
+.myglyphicon-spade:before {
+	content: "\E263";
+}
+
+.myglyphicon-bank:before {
+	content: "\1F3E6";
+}
+
+.myglyphicon-vcard:before {
+	content: "\E265";
+}
+
+.myglyphicon-electrical_plug:before {
+	content: "\E266";
+}
+
+.myglyphicon-flag:before {
+	content: "\E267";
+}
+
+.myglyphicon-credit_card:before {
+	content: "\E268";
+}
+
+.myglyphicon-keyboard-wireless:before {
+	content: "\E269";
+}
+
+.myglyphicon-keyboard-wired:before {
+	content: "\E270";
+}
+
+.myglyphicon-shield:before {
+	content: "\E271";
+}
+
+.myglyphicon-ring:before {
+	content: "\02DA";
+}
+
+.myglyphicon-cake:before {
+	content: "\E273";
+}
+
+.myglyphicon-drink:before {
+	content: "\E274";
+}
+
+.myglyphicon-beer:before {
+	content: "\E275";
+}
+
+.myglyphicon-fast_food:before {
+	content: "\E276";
+}
+
+.myglyphicon-cutlery:before {
+	content: "\E277";
+}
+
+.myglyphicon-pizza:before {
+	content: "\E278";
+}
+
+.myglyphicon-birthday_cake:before {
+	content: "\E279";
+}
+
+.myglyphicon-tablet:before {
+	content: "\E280";
+}
+
+.myglyphicon-settings:before {
+	content: "\E281";
+}
+
+.myglyphicon-bullets:before {
+	content: "\E282";
+}
+
+.myglyphicon-cardio:before {
+	content: "\E283";
+}
+
+.myglyphicon-t-shirt:before {
+	content: "\E284";
+}
+
+.myglyphicon-pants:before {
+	content: "\E285";
+}
+
+.myglyphicon-sweater:before {
+	content: "\E286";
+}
+
+.myglyphicon-fabric:before {
+	content: "\E287";
+}
+
+.myglyphicon-leather:before {
+	content: "\E288";
+}
+
+.myglyphicon-scissors:before {
+	content: "\E289";
+}
+
+.myglyphicon-bomb:before {
+	content: "\1F4A3";
+}
+
+.myglyphicon-skull:before {
+	content: "\1F480";
+}
+
+.myglyphicon-celebration:before {
+	content: "\E292";
+}
+
+.myglyphicon-tea_kettle:before {
+	content: "\E293";
+}
+
+.myglyphicon-french_press:before {
+	content: "\E294";
+}
+
+.myglyphicon-coffe_cup:before {
+	content: "\E295";
+}
+
+.myglyphicon-pot:before {
+	content: "\E296";
+}
+
+.myglyphicon-grater:before {
+	content: "\E297";
+}
+
+.myglyphicon-kettle:before {
+	content: "\E298";
+}
+
+.myglyphicon-hospital:before {
+	content: "\1F3E5";
+}
+
+.myglyphicon-hospital_h:before {
+	content: "\E300";
+}
+
+.myglyphicon-microphone:before {
+	content: "\1F3A4";
+}
+
+.myglyphicon-webcam:before {
+	content: "\E302";
+}
+
+.myglyphicon-temple_christianity_church:before {
+	content: "\E303";
+}
+
+.myglyphicon-temple_islam:before {
+	content: "\E304";
+}
+
+.myglyphicon-temple_hindu:before {
+	content: "\E305";
+}
+
+.myglyphicon-temple_buddhist:before {
+	content: "\E306";
+}
+
+.myglyphicon-bicycle:before {
+	content: "\1F6B2";
+}
+
+.myglyphicon-life_preserver:before {
+	content: "\E308";
+}
+
+.myglyphicon-share_alt:before {
+	content: "\E309";
+}
+
+.myglyphicon-comments:before {
+	content: "\E310";
+}
+
+.myglyphicon-flower:before {
+	content: "\2698";
+}
+
+.myglyphicon-baseball:before {
+	content: "\26BE";
+}
+
+.myglyphicon-rugby:before {
+	content: "\E313";
+}
+
+.myglyphicon-ax:before {
+	content: "\E314";
+}
+
+.myglyphicon-table_tennis:before {
+	content: "\E315";
+}
+
+.myglyphicon-bowling:before {
+	content: "\1F3B3";
+}
+
+.myglyphicon-tree_conifer:before {
+	content: "\E317";
+}
+
+.myglyphicon-tree_deciduous:before {
+	content: "\E318";
+}
+
+.myglyphicon-more_items:before {
+	content: "\E319";
+}
+
+.myglyphicon-sort:before {
+	content: "\E320";
+}
+
+.myglyphicon-filter:before {
+	content: "\E321";
+}
+
+.myglyphicon-gamepad:before {
+	content: "\E322";
+}
+
+.myglyphicon-playing_dices:before {
+	content: "\E323";
+}
+
+.myglyphicon-calculator:before {
+	content: "\E324";
+}
+
+.myglyphicon-tie:before {
+	content: "\E325";
+}
+
+.myglyphicon-wallet:before {
+	content: "\E326";
+}
+
+.myglyphicon-piano:before {
+	content: "\E327";
+}
+
+.myglyphicon-sampler:before {
+	content: "\E328";
+}
+
+.myglyphicon-podium:before {
+	content: "\E329";
+}
+
+.myglyphicon-soccer_ball:before {
+	content: "\E330";
+}
+
+.myglyphicon-blog:before {
+	content: "\E331";
+}
+
+.myglyphicon-dashboard:before {
+	content: "\E332";
+}
+
+.myglyphicon-certificate:before {
+	content: "\E333";
+}
+
+.myglyphicon-bell:before {
+	content: "\1F514";
+}
+
+.myglyphicon-candle:before {
+	content: "\E335";
+}
+
+.myglyphicon-pushpin:before {
+	content: "\1F4CC";
+}
+
+.myglyphicon-iphone_shake:before {
+	content: "\E337";
+}
+
+.myglyphicon-pin_flag:before {
+	content: "\E338";
+}
+
+.myglyphicon-turtle:before {
+	content: "\1F422";
+}
+
+.myglyphicon-rabbit:before {
+	content: "\1F407";
+}
+
+.myglyphicon-globe:before {
+	content: "\E341";
+}
+
+.myglyphicon-briefcase:before {
+	content: "\1F4BC";
+}
+
+.myglyphicon-hdd:before {
+	content: "\E343";
+}
+
+.myglyphicon-thumbs_up:before {
+	content: "\E344";
+}
+
+.myglyphicon-thumbs_down:before {
+	content: "\E345";
+}
+
+.myglyphicon-hand_right:before {
+	content: "\E346";
+}
+
+.myglyphicon-hand_left:before {
+	content: "\E347";
+}
+
+.myglyphicon-hand_up:before {
+	content: "\E348";
+}
+
+.myglyphicon-hand_down:before {
+	content: "\E349";
+}
+
+.myglyphicon-fullscreen:before {
+	content: "\E350";
+}
+
+.myglyphicon-shopping_bag:before {
+	content: "\E351";
+}
+
+.myglyphicon-book_open:before {
+	content: "\E352";
+}
+
+.myglyphicon-nameplate:before {
+	content: "\E353";
+}
+
+.myglyphicon-nameplate_alt:before {
+	content: "\E354";
+}
+
+.myglyphicon-vases:before {
+	content: "\E355";
+}
+
+.myglyphicon-bullhorn:before {
+	content: "\E356";
+}
+
+.myglyphicon-dumbbell:before {
+	content: "\E357";
+}
+
+.myglyphicon-suitcase:before {
+	content: "\E358";
+}
+
+.myglyphicon-file_import:before {
+	content: "\E359";
+}
+
+.myglyphicon-file_export:before {
+	content: "\E360";
+}
+
+.myglyphicon-bug:before {
+	content: "\1F41B";
+}
+
+.myglyphicon-crown:before {
+	content: "\1F451";
+}
+
+.myglyphicon-smoking:before {
+	content: "\E363";
+}
+
+.myglyphicon-cloud-upload:before {
+	content: "\E364";
+}
+
+.myglyphicon-cloud-download:before {
+	content: "\E365";
+}
+
+.myglyphicon-restart:before {
+	content: "\E366";
+}
+
+.myglyphicon-security_camera:before {
+	content: "\E367";
+}
+
+.myglyphicon-expand:before {
+	content: "\E368";
+}
+
+.myglyphicon-collapse:before {
+	content: "\E369";
+}
+
+.myglyphicon-collapse_top:before {
+	content: "\E370";
+}
+
+.myglyphicon-globe_af:before {
+	content: "\E371";
+}
+
+.myglyphicon-global:before {
+	content: "\E372";
+}
+
+.myglyphicon-spray:before {
+	content: "\E373";
+}
+
+.myglyphicon-nails:before {
+	content: "\E374";
+}
+
+.myglyphicon-claw_hammer:before {
+	content: "\E375";
+}
+
+.myglyphicon-classic_hammer:before {
+	content: "\E376";
+}
+
+.myglyphicon-hand_saw:before {
+	content: "\E377";
+}
+
+.myglyphicon-riflescope:before {
+	content: "\E378";
+}
+
+.myglyphicon-electrical_socket_eu:before {
+	content: "\E379";
+}
+
+.myglyphicon-electrical_socket_us:before {
+	content: "\E380";
+}
+
+.myglyphicon-message_forward:before {
+	content: "\E381";
+}
+
+.myglyphicon-coat_hanger:before {
+	content: "\E382";
+}
+
+.myglyphicon-dress:before {
+	content: "\1F457";
+}
+
+.myglyphicon-bathrobe:before {
+	content: "\E384";
+}
+
+.myglyphicon-shirt:before {
+	content: "\E385";
+}
+
+.myglyphicon-underwear:before {
+	content: "\E386";
+}
+
+.myglyphicon-log_in:before {
+	content: "\E387";
+}
+
+.myglyphicon-log_out:before {
+	content: "\E388";
+}
+
+.myglyphicon-exit:before {
+	content: "\E389";
+}
+
+.myglyphicon-new_window_alt:before {
+	content: "\E390";
+}
+
+.myglyphicon-video_sd:before {
+	content: "\E391";
+}
+
+.myglyphicon-video_hd:before {
+	content: "\E392";
+}
+
+.myglyphicon-subtitles:before {
+	content: "\E393";
+}
+
+.myglyphicon-sound_stereo:before {
+	content: "\E394";
+}
+
+.myglyphicon-sound_dolby:before {
+	content: "\E395";
+}
+
+.myglyphicon-sound_5_1:before {
+	content: "\E396";
+}
+
+.myglyphicon-sound_6_1:before {
+	content: "\E397";
+}
+
+.myglyphicon-sound_7_1:before {
+	content: "\E398";
+}
+
+.myglyphicon-copyright_mark:before {
+	content: "\E399";
+}
+
+.myglyphicon-registration_mark:before {
+	content: "\E400";
+}
+
+.myglyphicon-radar:before {
+	content: "\E401";
+}
+
+.myglyphicon-skateboard:before {
+	content: "\E402";
+}
+
+.myglyphicon-golf_course:before {
+	content: "\E403";
+}
+
+.myglyphicon-sorting:before {
+	content: "\E404";
+}
+
+.myglyphicon-sort-by-alphabet:before {
+	content: "\E405";
+}
+
+.myglyphicon-sort-by-alphabet-alt:before {
+	content: "\E406";
+}
+
+.myglyphicon-sort-by-order:before {
+	content: "\E407";
+}
+
+.myglyphicon-sort-by-order-alt:before {
+	content: "\E408";
+}
+
+.myglyphicon-sort-by-attributes:before {
+	content: "\E409";
+}
+
+.myglyphicon-sort-by-attributes-alt:before {
+	content: "\E410";
+}
+
+.myglyphicon-compressed:before {
+	content: "\E411";
+}
+
+.myglyphicon-package:before {
+	content: "\1F4E6";
+}
+
+.myglyphicon-cloud_plus:before {
+	content: "\E413";
+}
+
+.myglyphicon-cloud_minus:before {
+	content: "\E414";
+}
+
+.myglyphicon-disk_save:before {
+	content: "\E415";
+}
+
+.myglyphicon-disk_open:before {
+	content: "\E416";
+}
+
+.myglyphicon-disk_saved:before {
+	content: "\E417";
+}
+
+.myglyphicon-disk_remove:before {
+	content: "\E418";
+}
+
+.myglyphicon-disk_import:before {
+	content: "\E419";
+}
+
+.myglyphicon-disk_export:before {
+	content: "\E420";
+}
+
+.myglyphicon-tower:before {
+	content: "\E421";
+}
+
+.myglyphicon-send:before {
+	content: "\E422";
+}
+
+.myglyphicon-git_branch:before {
+	content: "\E423";
+}
+
+.myglyphicon-git_create:before {
+	content: "\E424";
+}
+
+.myglyphicon-git_private:before {
+	content: "\E425";
+}
+
+.myglyphicon-git_delete:before {
+	content: "\E426";
+}
+
+.myglyphicon-git_merge:before {
+	content: "\E427";
+}
+
+.myglyphicon-git_pull_request:before {
+	content: "\E428";
+}
+
+.myglyphicon-git_compare:before {
+	content: "\E429";
+}
+
+.myglyphicon-git_commit:before {
+	content: "\E430";
+}
+
+.myglyphicon-construction_cone:before {
+	content: "\E431";
+}
+
+.myglyphicon-shoe_steps:before {
+	content: "\E432";
+}
+
+.myglyphicon-plus:before {
+	content: "\002B";
+}
+
+.myglyphicon-minus:before {
+	content: "\2212";
+}
+
+.myglyphicon-redo:before {
+	content: "\E435";
+}
+
+.myglyphicon-undo:before {
+	content: "\E436";
+}
+
+.myglyphicon-golf:before {
+	content: "\E437";
+}
+
+.myglyphicon-hockey:before {
+	content: "\E438";
+}
+
+.myglyphicon-pipe:before {
+	content: "\E439";
+}
+
+.myglyphicon-wrench:before {
+	content: "\1F527";
+}
+
+.myglyphicon-folder_closed:before {
+	content: "\E441";
+}
+
+.myglyphicon-phone_alt:before {
+	content: "\E442";
+}
+
+.myglyphicon-earphone:before {
+	content: "\E443";
+}
+
+.myglyphicon-floppy_disk:before {
+	content: "\E444";
+}
+
+.myglyphicon-floppy_saved:before {
+	content: "\E445";
+}
+
+.myglyphicon-floppy_remove:before {
+	content: "\E446";
+}
+
+.myglyphicon-floppy_save:before {
+	content: "\E447";
+}
+
+.myglyphicon-floppy_open:before {
+	content: "\E448";
+}
+
+.myglyphicon-translate:before {
+	content: "\E449";
+}
+
+.myglyphicon-fax:before {
+	content: "\E450";
+}
+
+.myglyphicon-factory:before {
+	content: "\1F3ED";
+}
+
+.myglyphicon-shop_window:before {
+	content: "\E452";
+}
+
+.myglyphicon-shop:before {
+	content: "\E453";
+}
+
+.myglyphicon-kiosk:before {
+	content: "\E454";
+}
+
+.myglyphicon-kiosk_wheels:before {
+	content: "\E455";
+}
+
+.myglyphicon-kiosk_light:before {
+	content: "\E456";
+}
+
+.myglyphicon-kiosk_food:before {
+	content: "\E457";
+}
+
+.myglyphicon-transfer:before {
+	content: "\E458";
+}
+
+.myglyphicon-money:before {
+	content: "\E459";
+}
+
+.myglyphicon-header:before {
+	content: "\E460";
+}
+
+.myglyphicon-blacksmith:before {
+	content: "\E461";
+}
+
+.myglyphicon-saw_blade:before {
+	content: "\E462";
+}
+
+.myglyphicon-basketball:before {
+	content: "\E463";
+}
+
+.myglyphicon-server:before {
+	content: "\E464";
+}
+
+.myglyphicon-server_plus:before {
+	content: "\E465";
+}
+
+.myglyphicon-server_minus:before {
+	content: "\E466";
+}
+
+.myglyphicon-server_ban:before {
+	content: "\E467";
+}
+
+.myglyphicon-server_flag:before {
+	content: "\E468";
+}
+
+.myglyphicon-server_lock:before {
+	content: "\E469";
+}
+
+.myglyphicon-server_new:before {
+	content: "\E470";
+}
